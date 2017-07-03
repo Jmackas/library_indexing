@@ -9,6 +9,31 @@ html {
 	margin: auto;
 }
 
+/* Left column contents */
+.lindex .leftClmn {
+	float: left;
+	width: 70%;
+}
+
+/* Right column contents */
+.lindex .rightClmn {
+	float: left;
+	width: 25%;
+}
+
+.lindex .contactUs {
+	/* background: red; */
+	text-align: center;
+	padding: 5px 0 5px 0;
+	width: 65%;
+	border-radius: 0;
+	border: 1px solid lightblue;
+}
+
+.lindex .contactUs:hover {
+	background: lightblue;
+}
+
 .lindex h1 {
 	margin: 0 0 0 0;
 	color: black;
@@ -23,10 +48,5 @@ html {
     border: 1px solid rgba(0,0,0,0);
 }
 
-.lindex .leftClmn {
-	float: left;
-}
 
-.lindex .rightClmn {
-	float: left;
-}
+
