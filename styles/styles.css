@@ -30,12 +30,15 @@ hr {
     border-bottom: 1px dashed lightblue;
 }
 
-h1 {
-    margin: 0 0 0 0;
-    color: black;
-    text-align: center;
-    font-size: 3.9em;
-    padding: 0 0 10px 0;
+form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+input {
+    font-size: 130%;
+    font-family: 'Droid Serif', serif;
 }
 
 iframe {
@@ -43,6 +46,8 @@ iframe {
     margin: 10px 0 0 0;
     border: 1px solid rgba(0,0,0,0);
 }
+
+
 
 @media only screen and (max-width: 658px) {
 		iframe {
