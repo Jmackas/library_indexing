@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-	margin: 0 0 0 0;
+	margin: 0 0 0 6px;
 }
 
 iframe {
@@ -39,10 +39,17 @@ h1 {
 }
 
 iframe {
-    width: 40%;
-    height: 330px;
+    width: 32em;
+    margin: 10px 0 0 0;
     border: 1px solid rgba(0,0,0,0);
 }
+
+@media only screen and (max-width: 658px) {
+		iframe {
+			width: 500px;
+			height: 21em;
+		}
+	}
 
 .lindex {
     width: 95%;
@@ -66,15 +73,20 @@ iframe {
     float: left;
     width: 70%;
     padding: 10px 10px 10px 10px;
-    background: lightgray;
+    /* background: whitesmoke; */
     border-left: 1px solid lightblue;
     border-top: 1px solid lightblue;
-    border-top-left-radius: 10px;
+    border-bottom: 1px solid lightblue;
+    border-top-left-radius: 5px;
 }
 
 @media only screen and (max-width: 658px) {
 		.leftClmn {
 			width: 100%;
+			border: initial;
+			/* border-top: initial; */
+			border-radius: initial;
+			padding: initial;
 		}
 	}
 
@@ -86,7 +98,7 @@ iframe {
 .b1, .b2, .b3, .b4 {
     background: white;
     float: left;
-    width: 14.2em;
+    width: 16.3em;
     margin: 0 2px 0 2px;
     border: 2px solid lightblue;
     text-align: center;
@@ -131,11 +143,13 @@ iframe {
     float: left;
     width: 25%;
     /* overflow: auto; */
-    background: whitesmoke;
+    /* background: whitesmoke; */
     padding: 10px 10px 10px 10px;
     border-top: 1px solid lightblue;
     border-right: 1px solid lightblue;
-    border-top-right-radius: 10px;
+    border-left: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    border-top-right-radius: 5px;
 }
 
 .rightClmn a {
@@ -149,12 +163,15 @@ iframe {
 }
 
 .rightClmn ul {
-    margin: 5px 0 0 -38px;
+    margin: 5px 0 0 -33px;
 }
 
 @media only screen and (max-width: 658px) {
 		.rightClmn {
 			width: 100%;
+			border: initial;
+			border-radius: initial;
+			padding: 10px 0 0 0;
 		}
 	}
 
