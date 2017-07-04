@@ -145,7 +145,28 @@ iframe {
 	-webkit-filter: grayscale(0);filter: grayscale(0);
 	}
 	
+	.mobF {
+		display: none;
+	}
 	
+@media only screen and (max-width: 658px) {
+		.libColl {
+			display: initial;
+			justify-content: initial;
+		}
+
+		.b1, .b2, .b3, .b4 {
+			width: 100%;
+			margin: 10px 0 9px 0;
+			padding: 0;
+			border: none;
+		}
+		
+		.mobF {
+			display: block;
+		}
+	}
+
 /* Right column contents */
 .rightClmn {
     float: left;
