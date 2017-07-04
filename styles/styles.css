@@ -54,8 +54,18 @@ hr {
     float: left;
     width: 13.1em;
     margin: 0 2px 0 2px;
-    border: 1px solid lightblue;
+    border: 2px solid lightblue;
     text-align: center;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: .4s ease-in-out;
+}
+
+.b1 {
+	background-image: url('http://i.imgur.com/9YHSwjE.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: -6px 11px;
 }
 
 .b1 a, .b2 a, .b3 a, .b4 a {
@@ -63,12 +73,11 @@ hr {
 	padding: 50px 0 50px 0;
 	color: black;
 	text-decoration: none;
-	 transition: .4s ease-in-out;
 }
 
-.b1 a:hover, .b2 a:hover, .b3 a:hover, .b4 a:hover {
-	background: #49bee4;
-}
+.b1:hover, .b2:hover, .b3:hover, .b4:hover {
+	-webkit-filter: grayscale(0);filter: grayscale(0);
+	}
 
 /* Right column contents */
 .rightClmn {
