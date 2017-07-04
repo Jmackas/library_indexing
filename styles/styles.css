@@ -83,7 +83,7 @@ iframe {
     float: left;
     width: 70%;
     padding: 10px 10px 10px 10px;
-    /* background: whitesmoke; */
+    background: whitesmoke;
     border-left: 1px solid lightblue;
     border-top: 1px solid lightblue;
     border-bottom: 1px solid lightblue;
@@ -155,11 +155,7 @@ iframe {
 .b1:hover, .b2:hover, .b3:hover, .b4:hover {
 	-webkit-filter: grayscale(0);filter: grayscale(0);
 	}
-	
-	.mobF {
-		display: none;
-		border-bottom: 1px dashed #c7c7c7;
-	}
+
 	
 @media only screen and (max-width: 658px) {
 		.libColl {
@@ -168,14 +164,10 @@ iframe {
 		}
 
 		.b1, .b2, .b3, .b4 {
-			width: 100%;
-			margin: 10px 0 9px 0;
+			width: 90%;
+			margin: -3px 0 10px 0;
 			padding: 0;
-			border: none;
-		}
-		
-		.mobF {
-			display: block;
+			border: 1px solid lightblue;
 		}
 	}
 
@@ -183,6 +175,7 @@ iframe {
 .rightClmn {
     float: left;
     width: 25%;
+    background: whitesmoke;
     padding: 10px 10px 10px 10px;
     border-top: 1px solid lightblue;
     border-right: 1px solid lightblue;
