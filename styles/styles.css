@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-	margin: 0 0 0 6px;
+	margin: 0 0 8px 6px;
 }
 
 iframe {
@@ -113,18 +113,21 @@ iframe {
 }
 
 .b1 {
-	background-image: url('http://i.imgur.com/9YHSwjE.jpg');
+	background-image: url('../elements/knovel_logo.jpg');
 	background-size: contain;
-	/* background-repeat: no-repeat; */
 	background-position: -6px 11px;
 }
 
 .b2 {
-	background-image: url('/elements/ieee_logo.jpg');
+	background-image: url('../elements/ieee_logo.jpg');
+	background-size: contain;
+	background-position: -6px 11px;
 }
 
 .b3 {
-	
+	background-image: url('../elements/eit_logo.png');
+	background-size: contain;
+	background-position: -6px 11px;
 }
 
 .b4 {
