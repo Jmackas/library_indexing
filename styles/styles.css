@@ -30,6 +30,10 @@ hr {
     overflow: auto;
 }
 
+.lindexEnc {
+	display: none;
+}
+
 /* Left column contents */
 .leftClmn {
     float: left;
@@ -73,7 +77,7 @@ li a:hover {
 .contactUs {
     text-align: center;
     padding: 10px 0 10px 0;
-    width: 65%;
+    width: 85%;
     border-radius: 0;
     background: #49bee4;
     transition: .4s ease-in-out;
