@@ -1,3 +1,10 @@
+/* Delete below */
+.massiveSpace {
+    margin: 0 0 1159px 0;
+    color: white;
+}
+/* Delete above */
+
 html {
 	font-family: Poiret One;
 	background: white;
@@ -7,27 +14,32 @@ html {
 	width: 85%;
 	background: white;
 	margin: auto;
+	overflow: auto;
+	
 }
 
 /* Left column contents */
 .lindex .leftClmn {
 	float: left;
 	width: 70%;
+	background: lightgray;
 }
 
 /* Right column contents */
 .lindex .rightClmn {
 	float: left;
 	width: 25%;
+	background: whitesmoke;
 }
 
 .lindex .contactUs {
-	/* background: red; */
 	text-align: center;
 	padding: 5px 0 5px 0;
 	width: 65%;
 	border-radius: 0;
 	border: 1px solid lightblue;
+	transition: .4s ease-in-out;
+	margin: auto;
 }
 
 .lindex .contactUs:hover {
