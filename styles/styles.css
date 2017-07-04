@@ -65,6 +65,11 @@ hr {
     margin: -14px 0 0 -38px;
 }
 
+li a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
 .contactUs {
     text-align: center;
     padding: 10px 0 10px 0;
