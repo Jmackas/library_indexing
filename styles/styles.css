@@ -3,6 +3,33 @@ html {
     background: white;
 }
 
+body {
+	    margin: 0 0 0 0;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    color: black;
+    text-align: center;
+    font-size: 3.9em;
+    padding: 0 0 10px 0;
+}
+
+h2 {
+	margin: 0 0 0 0;
+}
+
+iframe {
+    width: 40%;
+    height: 330px;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+hr {
+    border: 1px solid rgba(0,0,0,0);
+    border-bottom: 1px dashed lightblue;
+}
+
 h1 {
     margin: 0 0 0 0;
     color: black;
@@ -17,32 +44,39 @@ iframe {
     border: 1px solid rgba(0,0,0,0);
 }
 
-hr {
-    border: rgba(0,0,0,0);
-    border-bottom: 1px dashed lightblue;
-    margin: 0.8em 0 -0.5em 0;
-}
-
 .lindex {
     width: 95%;
     background: white;
-    margin: auto;
+	margin: auto;
+    display: flex;
+    justify-content: center;
     overflow: auto;
 }
 
-.lindexEnc {
-    display: none;
+@media only screen and (max-width: 658px) {
+    .lindex {
+		display: initial;
+		justify-content: initial;
+		width: 100%;
+	}
 }
 
 /* Left column contents */
 .leftClmn {
     float: left;
     width: 70%;
+    padding: 10px 10px 10px 10px;
     background: lightgray;
     border-left: 1px solid lightblue;
     border-top: 1px solid lightblue;
     border-top-left-radius: 10px;
 }
+
+@media only screen and (max-width: 658px) {
+		.leftClmn {
+			width: 100%;
+		}
+	}
 
 .libColl {
     display: flex;
@@ -52,20 +86,32 @@ hr {
 .b1, .b2, .b3, .b4 {
     background: white;
     float: left;
-    width: 13.1em;
+    width: 14.2em;
     margin: 0 2px 0 2px;
     border: 2px solid lightblue;
     text-align: center;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	transition: .4s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: .4s ease-in-out;
 }
 
 .b1 {
 	background-image: url('http://i.imgur.com/9YHSwjE.jpg');
 	background-size: contain;
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat; */
 	background-position: -6px 11px;
+}
+
+.b2 {
+	
+}
+
+.b3 {
+	
+}
+
+.b4 {
+	
 }
 
 .b1 a, .b2 a, .b3 a, .b4 a {
@@ -78,11 +124,13 @@ hr {
 .b1:hover, .b2:hover, .b3:hover, .b4:hover {
 	-webkit-filter: grayscale(0);filter: grayscale(0);
 	}
-
+	
+	
 /* Right column contents */
 .rightClmn {
     float: left;
     width: 25%;
+    /* overflow: auto; */
     background: whitesmoke;
     padding: 10px 10px 10px 10px;
     border-top: 1px solid lightblue;
@@ -101,8 +149,14 @@ hr {
 }
 
 .rightClmn ul {
-    margin: -14px 0 0 -38px;
+    margin: 5px 0 0 -38px;
 }
+
+@media only screen and (max-width: 658px) {
+		.rightClmn {
+			width: 100%;
+		}
+	}
 
 li a:hover {
     color: blue;
