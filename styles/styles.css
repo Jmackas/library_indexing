@@ -114,24 +114,30 @@ iframe {
 
 .b1 {
 	background-image: url('../elements/knovel_logo.jpg');
-	background-size: contain;
+	background-size: cover;
 	background-position: -6px 11px;
+	background-repeat: no-repeat;
 }
 
 .b2 {
 	background-image: url('../elements/ieee_logo.jpg');
-	background-size: contain;
+	background-size: cover;
 	background-position: -6px 11px;
+	background-repeat: no-repeat;
 }
 
 .b3 {
 	background-image: url('../elements/eit_logo.png');
-	background-size: contain;
+	background-size: cover;
 	background-position: -6px 11px;
+	background-repeat: no-repeat;
 }
 
 .b4 {
-	
+	background-image: url('../elements/academic_onefile_logo.png');
+	background-size: cover;
+	background-position: -6px 11px;
+	background-repeat: no-repeat;
 }
 
 .b1 a, .b2 a, .b3 a, .b4 a {
@@ -147,6 +153,7 @@ iframe {
 	
 	.mobF {
 		display: none;
+		border-bottom: 1px dashed #c7c7c7;
 	}
 	
 @media only screen and (max-width: 658px) {
@@ -171,8 +178,6 @@ iframe {
 .rightClmn {
     float: left;
     width: 25%;
-    /* overflow: auto; */
-    /* background: whitesmoke; */
     padding: 10px 10px 10px 10px;
     border-top: 1px solid lightblue;
     border-right: 1px solid lightblue;
@@ -189,6 +194,7 @@ iframe {
 .rightClmn li {
     list-style-type: none;
     line-height: 2em;
+    text-decoration: underline;
 }
 
 .rightClmn ul {
