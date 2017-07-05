@@ -162,7 +162,7 @@ iframe {
     }
 
     .b1, .b2, .b3, .b4 {
-        width: 90%;
+        width: 89%;
         margin: -3px 0 10px 0;
         padding: 0;
         border: 1px solid lightblue;
@@ -207,7 +207,7 @@ iframe {
         width: 100%;
         border: initial;
         border-radius: initial;
-        padding: 0 0 0 0;
+        padding: 0 0 1em 0;
     }
 }
 
