@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	    margin: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 h1 {
@@ -16,12 +16,12 @@ h1 {
 }
 
 h2 {
-	margin: 0 0 8px 6px;
+    margin: 0 0 8px 6px;
 }
 
 h3 {
-	text-align: center;
-	margin: 0;
+    text-align: center;
+    margin: 0;
 }
 
 iframe {
@@ -52,19 +52,17 @@ iframe {
     border: 1px solid rgba(0,0,0,0);
 }
 
-
-
 @media only screen and (max-width: 658px) {
-		iframe {
-			width: 500px;
-			height: 21em;
-		}
-	}
+    iframe {
+        width: 500px;
+        height: 21em;
+    }
+}
 
 .lindex {
     width: 95%;
     background: white;
-	margin: auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     overflow: auto;
@@ -72,10 +70,10 @@ iframe {
 
 @media only screen and (max-width: 658px) {
     .lindex {
-		display: initial;
-		justify-content: initial;
-		width: 100%;
-	}
+        display: initial;
+        justify-content: initial;
+        width: 100%;
+    }
 }
 
 /* Left column contents */
@@ -91,14 +89,14 @@ iframe {
 }
 
 @media only screen and (max-width: 658px) {
-		.leftClmn {
-			width: 100%;
-			border: initial;
-			/* border-top: initial; */
-			border-radius: initial;
-			padding: initial;
-		}
-	}
+    .leftClmn {
+        width: 100%;
+        border: initial;
+        /* border-top: initial; */
+        border-radius: initial;
+        padding: initial;
+    }
+}
 
 .libColl {
     display: flex;
@@ -118,58 +116,58 @@ iframe {
 }
 
 .b1 {
-	background-image: url('../elements/knovel_logo.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url('../elements/knovel_logo.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .b2 {
-	background-image: url('../elements/ieee_logo.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url('../elements/ieee_logo.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .b3 {
-	background-image: url('../elements/eit_logo.png');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url('../elements/eit_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .b4 {
-	background-image: url('../elements/academic_onefile_logo.png');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url('../elements/academic_onefile_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .b1 a, .b2 a, .b3 a, .b4 a {
-	display: block;
-	padding: 50px 0 50px 0;
-	color: black;
-	text-decoration: none;
+    display: block;
+    padding: 50px 0 50px 0;
+    color: black;
+    text-decoration: none;
 }
 
 .b1:hover, .b2:hover, .b3:hover, .b4:hover {
-	-webkit-filter: grayscale(0);filter: grayscale(0);
-	}
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
 
-	
 @media only screen and (max-width: 658px) {
-		.libColl {
-			display: initial;
-			justify-content: initial;
-		}
+    .libColl {
+        display: initial;
+        justify-content: initial;
+    }
 
-		.b1, .b2, .b3, .b4 {
-			width: 90%;
-			margin: -3px 0 10px 0;
-			padding: 0;
-			border: 1px solid lightblue;
-		}
-	}
+    .b1, .b2, .b3, .b4 {
+        width: 90%;
+        margin: -3px 0 10px 0;
+        padding: 0;
+        border: 1px solid lightblue;
+    }
+}
 
 /* Right column contents */
 .rightClmn {
@@ -189,24 +187,29 @@ iframe {
     text-decoration: none;
 }
 
-.rightClmn li {
-    list-style-type: none;
-    line-height: 2em;
-    text-decoration: underline;
+.qLinks {
+    margin: 0 0 0 0.5em;
 }
 
-.rightClmn ul {
-    margin: 5px 0 0 -33px;
+.qLinks a {
+    display: block;
+    padding: 10px 0 15px 0;
+    /* background: red; */
+    margin: 0 0 -20px 0;
+}
+
+.qLinks a:hover {
+    color: blue;
 }
 
 @media only screen and (max-width: 658px) {
-		.rightClmn {
-			width: 100%;
-			border: initial;
-			border-radius: initial;
-			padding: 0 0 0 0;
-		}
-	}
+    .rightClmn {
+        width: 100%;
+        border: initial;
+        border-radius: initial;
+        padding: 0 0 0 0;
+    }
+}
 
 li a:hover {
     color: blue;
