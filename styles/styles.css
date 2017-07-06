@@ -102,7 +102,7 @@ iframe {
     justify-content: center;
 }
 
-.b1, .b2, .b3, .b4 {
+.b1, .b2, .b3, .b4, .b5 {
     background: white;
     float: left;
     width: 16.3em;
@@ -143,20 +143,20 @@ iframe {
 }
 
 .b5 {
-	 background-image: url('../elements/academic_onefile_logo.png');
+	 background-image: url('../elements/google_scholar_logo.PNG');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.b1 a, .b2 a, .b3 a, .b4 a {
+.b1 a, .b2 a, .b3 a, .b4 a, .b5 a {
     display: block;
     padding: 50px 0 50px 0;
     color: black;
     text-decoration: none;
 }
 
-.b1:hover, .b2:hover, .b3:hover, .b4:hover {
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
