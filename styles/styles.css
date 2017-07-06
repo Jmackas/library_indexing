@@ -171,6 +171,7 @@ iframe {
 /* Right column contents */
 .rightClmn {
     float: left;
+    text-align: center;
     width: 25%;
     background: whitesmoke;
     padding: 10px 10px 10px 10px;
@@ -186,19 +187,23 @@ iframe {
     text-decoration: none;
 }
 
-.qLinks {
-    margin: 0 0 0 0.5em;
+.qLinkC {
+    /* margin: 0 0 0 0.5em; */
+    /* text-align: center; */
+
 }
 
-.qLinks a {
+.qLinkC a {
     display: block;
-    padding: 10px 0 15px 0;
+    padding: 25px 0 25px 0;
     /* background: red; */
-    margin: 0 0 -20px 0;
+    /* margin: 0 0 -20px 0; */
+    transition: .4s ease-in-out;
 }
 
-.qLinks a:hover {
-    color: blue;
+.qLinkC a:hover {
+    color: black;
+    background: rgba(73, 190, 228, 0.5);
 }
 
 @media only screen and (max-width: 658px) {
@@ -216,7 +221,6 @@ li a:hover {
 }
 
 .contactUs {
-    text-align: center;
     padding: 10px 0 10px 0;
     width: 85%;
     border-radius: 0;
