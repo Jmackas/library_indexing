@@ -161,10 +161,12 @@ iframe {
     }
 
     .b1, .b2, .b3, .b4 {
-        width: 89%;
+        width: 100%;
         margin: -3px 0 10px 0;
         padding: 0;
-        border: 1px solid lightblue;
+        border: none;
+        border-top: 1px solid lightblue;
+        border-bottom: 1px solid lightblue;
     }
 }
 
