@@ -142,6 +142,13 @@ iframe {
     background-repeat: no-repeat;
 }
 
+.b5 {
+	 background-image: url('../elements/academic_onefile_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .b1 a, .b2 a, .b3 a, .b4 a {
     display: block;
     padding: 50px 0 50px 0;
@@ -197,7 +204,7 @@ iframe {
 
 .qLinkC a {
     display: block;
-    padding: 25px 0 25px 0;
+    padding: 20px 0 20px 0;
     /* background: red; */
     /* margin: 0 0 -20px 0; */
     transition: .4s ease-in-out;
@@ -205,7 +212,7 @@ iframe {
 
 .qLinkC a:hover {
     color: black;
-    background: rgba(73, 190, 228, 0.5);
+    background: rgba(73, 190, 228, 0.4);
 }
 
 @media only screen and (max-width: 658px) {
