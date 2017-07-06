@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 8px 0px;
+    margin: 8px 0 8px 0px;
     text-align: center;
     border-bottom: 1px dashed lightblue;
     padding: 0 0 7px 0;
@@ -78,8 +78,8 @@ Index Page
 **************************/
 
 .lindex {
-    width: 95%;
-    background: white;
+    width: 100%;
+    /* background: white; */
     margin: auto;
     display: flex;
     justify-content: center;
@@ -103,15 +103,15 @@ Index Page
     border-left: 1px solid lightblue;
     border-top: 1px solid lightblue;
     border-bottom: 1px solid lightblue;
-    border-top-left-radius: 5px;
+    /* border-top-left-radius: 5px; */
 }
 
 @media only screen and (max-width: 658px) {
     .leftClmn {
         width: 100%;
         border: initial;
-        /* border-top: initial; */
-        border-radius: initial;
+        /* border-radius: initial; */
+        border-top: 1px solid lightblue;
         padding: initial;
     }
 }
@@ -207,7 +207,7 @@ Index Page
     border-right: 1px solid lightblue;
     border-left: 1px solid lightblue;
     border-bottom: 1px solid lightblue;
-    border-top-right-radius: 5px;
+    /* border-top-right-radius: 5px; */
 }
 
 .rightClmn a {
@@ -239,6 +239,7 @@ Index Page
         width: 100%;
         border: initial;
         border-radius: initial;
+        border-bottom: 1px solid lightblue;
         padding: 0 0 1em 0;
     }
 }
