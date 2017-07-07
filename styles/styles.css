@@ -289,12 +289,14 @@ Primary elements
 
 .qLinkC .panel {
     background: rgba(0, 0, 0, 0);
-    font-size: small;
-    border-bottom: 1px solid lightblue;
-    /* border-right: 1px solid lightblue; */
-    /* width: 100%; */
-    /* border: 1px solid; */
+    font-size: smaller;
+    padding: 0;
 }
+
+.qLinkC div {
+    border-left: 1px solid lightblue;
+}
+
 
 @media only screen and (max-width: 658px) {
     .rightClmn {
@@ -403,7 +405,6 @@ button.accordion.active:after {
 
 div.panel {
     padding: 0 18px;
-    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -415,6 +416,7 @@ Scroll bar
 
 ::-webkit-scrollbar {
     background-color: white;
+	width: 1em;
 }
 
 ::-webkit-scrollbar-track {
@@ -427,6 +429,7 @@ Scroll bar
 
 ::-webkit-scrollbar-thumb {
     background-color: lightblue;
+	   
     border: 0px
 }
 
