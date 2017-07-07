@@ -437,6 +437,21 @@ Scroll bar
     background-color: lightblue;
 }
 
+/*
+Footer
+*/
+footer {
+    background: whitesmoke;
+    position: relative;
+    bottom: 0;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    /* font-family: calibri; */
+    font-size: 100%;
+    border-top: 1px solid lightblue;
+    /* color: white; */
+}
+
 /*************************
 
 User Support Page
