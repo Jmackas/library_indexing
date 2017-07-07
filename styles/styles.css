@@ -354,20 +354,22 @@ Accordion
 */
 
 button.accordion {
-    background-color: #eee;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid lightblue;
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    /* border: none; */
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    font-weight: bold;
 }
 
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: lightblue;
 }
 
 button.accordion:after {
