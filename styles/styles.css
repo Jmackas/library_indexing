@@ -329,6 +329,7 @@ li a:hover {
        left: initial;
        width: 100%;
        border-radius: initial;
+       border: none;
        opacity: 1;
    }
 
