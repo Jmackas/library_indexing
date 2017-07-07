@@ -331,6 +331,7 @@ li a:hover {
        border-radius: initial;
        border: none;
        opacity: 1;
+       background: rgba(13, 71, 135, 0.65);
    }
 
 }
@@ -343,3 +344,9 @@ Miscellaneous
 .keyFieldsText {
     color: red;
 }
+
+.sel1 a {
+	text-decoration: none;
+}
+
+
