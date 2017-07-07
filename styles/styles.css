@@ -263,21 +263,36 @@ Primary elements
 }
 
 .qLinkC {
-    /* margin: 0 0 0 0.5em; */
-    /* text-align: center; */
+
 }
 
 .qLinkC a {
     display: block;
     padding: 20px 0 20px 0;
-    /* background: red; */
-    /* margin: 0 0 -20px 0; */
     transition: .4s ease-in-out;
 }
 
 .qLinkC a:hover {
     color: black;
     background: rgba(73, 190, 228, 0.4);
+}
+
+.qLinkC .accordion {
+	border: none;
+	font-weight: normal;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	text-align: center;
+}
+
+.qLinkC .panel {
+    background: rgba(0, 0, 0, 0);
+    font-size: small;
+    border-bottom: 1px solid lightblue;
+    /* border-right: 1px solid lightblue; */
+    /* width: 100%; */
+    /* border: 1px solid; */
 }
 
 @media only screen and (max-width: 658px) {
