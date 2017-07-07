@@ -16,6 +16,10 @@ p {
     line-height: 1.7em;
 }
 
+ol {
+    line-height: 1.6em;
+}
+
 h1 {
     margin: 5px 0 0 0;
     color: black;
@@ -38,6 +42,11 @@ h3 {
 h4 {
     text-align: center;
     margin: 0 0 0 0;
+}
+
+img {
+	border: 2px solid lightblue;
+	margin: 0 0 25px 0;
 }
 
 iframe {
