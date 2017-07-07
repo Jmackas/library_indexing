@@ -52,12 +52,13 @@ img {
     border: 2px solid lightblue;
     margin: 0 0 25px 0;
 }
-
+/*
 iframe {
     width: 40%;
     height: 330px;
     border: 1px solid rgba(0,0,0,0);
 }
+*/
 
 hr {
     border: 1px solid rgba(0,0,0,0);
@@ -429,3 +430,33 @@ User Support Page
     height: 1079px;
 }
 
+.overflowAuto {
+    overflow: auto;
+}
+
+.overflowAuto iframe {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.overflowAuto ul {
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 -40px;
+}
+
+@media only screen and (max-width: 1128px) {
+   .overflowAuto iframe {
+       float: initial;
+   }
+
+   .overflowAuto {
+       text-align: center;
+       margin: 0;
+   }
+
+   .overflowAuto ul {
+       float: initial;
+   }
+
+}
