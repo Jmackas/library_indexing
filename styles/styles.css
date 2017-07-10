@@ -441,15 +441,14 @@ Scroll bar
 Footer
 */
 footer {
-    background: whitesmoke;
-    position: static;
-    bottom: 0;
-    padding: 20px 0 20px 0;
-    text-align: center;
-    /* font-family: calibri; */
-    font-size: 100%;
-    border-top: 1px solid lightblue;
-    /* color: white; */
+  border-top: 1px solid lightblue;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
 
 /*************************
