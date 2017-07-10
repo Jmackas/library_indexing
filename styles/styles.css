@@ -314,11 +314,11 @@ li a:hover {
 }
 
 .contactUs {
-    padding: 10px 0 10px 0;
+    padding: 10px 18px 10px 0;
     width: 85%;
     /* border-radius: 0; */
     border: 1px solid rgb(13, 71, 135);
-    border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 56px;
     position: fixed;
     left: 0;
     top: 0;
