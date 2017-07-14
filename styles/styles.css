@@ -344,13 +344,18 @@ li a:hover {
 
 @media only screen and (max-width: 658px) {
    .contactUs {
-       position: initial;
+       /* position: initial; */
        left: initial;
        width: 100%;
        border-radius: initial;
        border: none;
+       z-index: 1;
        opacity: 1;
        background: rgba(13, 71, 135, 0.65);
+   }
+
+   h1 {
+       margin: 58px 0 0 0;
    }
 
 }
@@ -442,7 +447,7 @@ Footer
 */
 footer {
   border-top: 1px solid lightblue;
-  position: relative;
+  position: static;
   right: 0;
   bottom: 0;
   left: 0;
